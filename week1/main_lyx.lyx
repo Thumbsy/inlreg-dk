@@ -1,0 +1,174 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language polish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+INLREG verslag 1 - Bekendmaking met de apparatuur
+\end_layout
+
+\begin_layout Author
+Auteurs:
+\begin_inset Newline newline
+\end_inset
+
+Daniël Martoredjo, 13024833
+\begin_inset Newline newline
+\end_inset
+
+Kevin Oei, 13090062
+\begin_inset Newline newline
+\end_inset
+
+Groep: EQ2.a
+\begin_inset Newline newline
+\end_inset
+
+Docent: T.
+ Wiegers
+\end_layout
+
+\begin_layout Date
+Datum: 17-02-2015
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Inleiding
+\end_layout
+
+\begin_layout Standard
+In dit korte verslag wordt de eerste practicummiddag beschreven die hoort
+ bij het vak Inleiding Regeltechniek.
+ Het practicum vind plaats in een lab met enkele opstellingen waarin regelsystem
+en zijn verwerkt.
+ In deze eerste practicumles stond het bekend worden met de opstellingen
+ centraal.
+ In groepjes van twee kon er in alle vrijheid 'gespeeld' worden met de opstellin
+gen om zo al doende te leren wat de mogelijkheden zijn.
+ Er volgt eerst een beschrijving van de opstellingen en apparatuur zelf,
+ vervolgens wordt beschreven wat wij als practicumgroep hebben gedaan per
+ opstelling.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "apparatuur_en_werking.lyx"
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "handelingen_per_opstelling.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

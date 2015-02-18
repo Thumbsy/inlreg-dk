@@ -1,0 +1,400 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language polish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Apparatuur en werking
+\end_layout
+
+\begin_layout Standard
+In het practicum waren er drie soorten apparatuur beschikbaar voor gebruik.
+ Dit waren de temperatuur regelaar, de luchtdruk regelaar en de motor regelaar.
+\begin_inset Newline newline
+\end_inset
+
+In de volgende paragrafen zullen we hier dieper op ingaan.
+\end_layout
+
+\begin_layout Subsection
+Temperatuurregelaar (TR)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Temperatuurregelaar
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images_apparatuur/TR2 - full.jpg
+	lyxscale 10
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figuur 1 is de temperatuurregelaar te beschouwen.
+ Dit is een systeem die de temperatuur van het water in de uitgangsbuis
+ kan regelen.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Watervoorziening
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images_apparatuur/TR2 - Warm en koud supply.jpg
+	lyxscale 10
+	width 58col%
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename images_apparatuur/TR2 - Warm en koud.jpg
+	lyxscale 10
+	width 32col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figuur 2 is de watervoorziening te zien.
+ De linker kraan is de warmwatervoorziening en de rechter kraan is de koudwaterv
+oorziening.
+ Deze kranen staan rechtstreeks verbonden met de twee buizen.
+ Hier is de linker buis voor warm water en de rechter buis voor koud water.
+ Met de draaiknoppen onderaan de buizen kan er ingesteld worden hoe snel
+ er water door de buizen heen stroomd.
+ De displays aan de rechterkant van een buis geven de temperatuur in de
+ buizen weer.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Waterpomp, Voedingsdruk en Afvoertemperatuur
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images_apparatuur/TR2 - drukpomp.jpg
+	lyxscale 10
+	width 50col%
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename images_apparatuur/TR2 - druk, voltmeter.jpg
+	lyxscale 10
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De warmwaterbuis en de koudwaterbuis staan natuurlijk niet rechtstreeks
+ aan elkaar gekoppeld.
+ Tussen de koudwaterbuis en de warmwaterbuis is er een drukpomp geplaatst,
+ die de hoeveelheid koudwater wat doorstroomt bepaald.
+ In het linker plaatje van Figuur 3 is deze pomp waar te nemen.
+ Links in het rechter plaatje van Figuur 3 is de voedingsdruk voor de pomp
+ waar te nemen.
+ Rechts is de temperatuurmeter van de afvoer te zien en in het midden is
+ de voltmeter te zien.
+ Deze voltmeter geeft de temperatuur van de afvoer weer met een bepaalde
+ spanning.
+ De verhouding tussen temperatuur en spanning is (nog) niet bekend.
+ De enige relatie die wij hebben kunnen bepalen tussen de spanning en temperatuu
+r is dat de spanning toeneemt, wanneer de temperatuur daalt en omgekeerd.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Regeling
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images_apparatuur/TR2 - Regeling.jpg
+	lyxscale 10
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figuur 4 is het paneel voor het regelverkeer waar te nemen.
+ Dit paneel stuurt een stroom naar de pomp (zie Figuur 3), die de doorstroom
+ van het koudwater bepaald.
+ Het regelen van deze stroom kan op drie hoofdmanieren.
+ Door aan de bovenste knop van het meest rechtse 'blok' te draaien, kan
+ deze in drie standen worden geplaats.
+ Eén stand voor het handmatig besturen van de stroom door middel van de
+ onderste draaiknop van het meest rechtse 'blok'.
+ Een tweede stand voor het besturen met een externe aansluiting.
+ En een derde stand voor het besturen van de stroom door middel van het
+ paneel.
+ Met de resterende opties op het paneel is er een 'virtuele schakeling'
+ op te bouwen met de 'virtuele operatoren', om de pomp systematisch te regelen.
+\end_layout
+
+\begin_layout Subsection
+Luchtdrukregelaar (PR)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Luchtdrukregelaar
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images_apparatuur/Photo Feb 11, 16 57 06.jpg
+	lyxscale 10
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figuur 5 is de luchtdrukregelaar te beschouwen.
+ Hiermee kan je met verschillende luchtdrukken besturen hoe snel er lucht
+ uit het 'tuitje' (zie Figuur 6) ontsnapt.
+ 
+\end_layout
+
+\begin_layout Standard
+De linker barometer (Figuur 5) geeft de indicatie weer van de voedingsdruk.
+ Deze is met de hand in te stellen.
+ De twee middelste barometers (Figuur 5) bepalen hoeveel druk er op het
+ blauwe en linker rode slangetje (zie Figuur 6) zitten.
+ Aan de hand van deze twee luchtdrukken wordt er geregeld hoe schuin het
+ staafje voor de tuit staat.
+ Hoe schuiner deze staat, hoe meer lucht er uit het tuitje kan ontsnappen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Regelsysteem
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images_apparatuur/Photo Feb 11, 16 57 10.jpg
+	lyxscale 10
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Motorregelaar
+\end_layout
+
+\begin_layout Standard
+De motor regelaar was geconstructureerd op een Elvis bord, dat aangestuurd
+ werd met het computerprogramma LabVIEW.
+ In het LabVIEW-programma kunnen er een aantal parameters ingevoerd worden
+ voor de besturing van de motor.
+ Een aantal parameters zijn de frequentie, amplitude, golfvormtype van het
+ inputsignaal en nog meer.
+ Tevens worden er signalen van de motor uitgelezen.
+\end_layout
+
+\end_body
+\end_document
