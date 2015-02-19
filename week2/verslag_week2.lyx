@@ -1,0 +1,692 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language polish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Naam: Daniël Martoredjo & Kevin Oei
+\begin_inset Newline newline
+\end_inset
+
+Klas: EQ2
+\begin_inset Newline newline
+\end_inset
+
+Practicumgroep: a
+\begin_inset Newline newline
+\end_inset
+
+Datum van inlevering: 2015.03.04
+\end_layout
+
+\begin_layout Standard
+Beoordeling:
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+Datum beoordeling:
+\begin_inset Newline newline
+\end_inset
+
+Paraaf docent:
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size large
+PROEF 1: SIMULATIE MET MATLAB/SIMULINK
+\end_layout
+
+\begin_layout Standard
+Inhoud:
+\end_layout
+
+\begin_layout Standard
+In deze practicumopdracht wordt ter introductie van simulatieprogramma Matlab/Si
+mulink een voorbeeld behandeld uit het studieboek par.
+ 2.5.4.
+ Het proces bestaat uit een vat dat gevuld wordt met water.
+ Dit proces wordt met een differentiaalvergelijking beschreven in het tijddomein.
+ Van het proces wordt door middel van de Laplace-transformatie een overdrachtsfu
+nctie H(s) bepaald.
+ Dit proces zal in MATLAB/SIMULINK worden ingevoerd, waarna de eigenschappen
+ van dit eerste orde systeem worden bestudeerd.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Meetopdracht 1:
+\end_layout
+
+\begin_layout Standard
+Eerst bekijken we de invloed van de tijdconstante τ.
+ Daarbij wordt de versterking K constant gehouden: K=1
+\begin_inset Newline newline
+\end_inset
+
+Kies voor τ achtereenvolgens de volgende waarden:
+\end_layout
+
+\begin_layout Standard
+τ = 1 en 2 sec.
+\end_layout
+
+\begin_layout Standard
+Print de twee responsies uit of plak ze hieronder elektronisch in dit rapport.
+ <insert image: scrn_opdracht1_a>< insert image: scrn_opdracht1_b> 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename scrn_opdracht1_a.png
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie bij τ = 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename scrn_opdracht1_b.png
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie bij τ = 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De τ waarde kan uit de responsie worden gemeten: dit is de tijd wanneer
+ de responsie 63% van zijn eindwaarde heeft bereikt.
+ Meet de τ waarden op en vergelijk de gemeten en de ingestelde waarden met
+ elkaar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+τ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+ingesteld
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+τ
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+gemeten
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.9975
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.99
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wat is de invloed van τ op de stapresponsie?
+\end_layout
+
+\begin_layout Standard
+Antwoord: Hoe groter τ, hoe langzamer het systeem reageert op een verandering
+ op de ingang.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Meetopdracht 2:
+\end_layout
+
+\begin_layout Standard
+Kies voor K achtereenvolgens de volgende waarden (nu wordt de tijdconstante
+ constant gehouden, neem τ=1 sec.):
+\end_layout
+
+\begin_layout Standard
+K = 1 en 2.
+\end_layout
+
+\begin_layout Standard
+Plak deze responsies in:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename scrn_opdracht2_a.png
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie bij K = 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename scrn_opdracht2_b.png
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie bij K = 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De tijdconstante τ beschrijft het dynamische gedrag van het systeem.
+ Als het uitgangssignaal, in ons geval de hoogte van het water in het vat,
+ niet meer veranderd, dan is dit systeem in rust.
+ Dit heet de statische toestand van het systeem.
+ Dus de waarde waar de responsie naartoe gaat, voor t→∞, heet de stationaire
+ toestand: y(∞).
+ Meet deze waarden op en vergelijk de gemeten stationaire toestand en de
+ ingestelde versterking K met elkaar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+K
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y(∞)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.999
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.999
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Voor t→∞ kan met het 
+\series bold
+eindwaarde-theorema y(∞)
+\series default
+ (zie boek, bijlage A) worden berekend.
+ Geef hiervan de 
+\series bold
+\bar under
+afleiding
+\series default
+\bar default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y(\infty)=\lim\limits _{τ\rightarrow\infty}$
+\end_inset
+
+
+\begin_inset Formula $\frac{K}{τs+1}=0$
+\end_inset
+
+ [NEEDS CORRECTION]
+\end_layout
+
+\begin_layout Standard
+Wat is de invloed van K op de stapresponsie?
+\end_layout
+
+\begin_layout Standard
+Antwoord: De waarde van K bepaalt de eindwaarde van y in de stationaire
+ toestand.
+ In dit geval; hoe groter K, hoe groter de eindwaarde van y.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Opgaven
+\end_layout
+
+\begin_layout Standard
+Bestudeer eerst par.
+ 2.5.4 uit het studieboek.
+\end_layout
+
+\begin_layout Standard
+In plaats van de uitgaande flow als uitgangssignaal te nemen willen we nu
+ de hoogte van het vat als uitgangsignaal.
+ We hadden de onderstaande vergelijkingen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{in}(t)=f_{uit}(t)+A\frac{db(t)}{dt}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "(2.15)"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{uit}(t)=\frac{b(t)}{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We willen de overdracht bepalen tussen de ingaande stroom en de hoogte als
+ uitgang.
+ Elimineer daarvoor f
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+uit
+\end_layout
+
+\end_inset
+
+(t) uit formule (2.15).
+ Geef de hierdoor verkregen differentiaalvergelijking, die het verband aangeeft
+ tussen de ingaande waterstroom en de hoogte van het vat:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{uit}(t)=\frac{b(t)}{R}+A\frac{db(t)}{dt}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Van deze differentiaalvergelijking gaan we de overdrachtsfunctie H(s) bepalen.
+ Hiervoor wordt de differentiaal-vergelijking Laplace getransformeerd, waarbij
+ de beginvoorwaarden nul worden gesteld.
+\end_layout
+
+\begin_layout Standard
+Geef hieronder deze Laplace-getransformeerde vergelijking:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{in}(s)=\mathcal{L}\{f_{in}(t)\}=\frac{1}{R}B(s)+A\cdot s\cdot B(s)=B(s)(\frac{1}{R}+A\cdot s)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De overdrachtsfunctie geeft het verband tussen het ingangs- en uitgangssignaal
+ aan.
+ Geef hieronder de overdrachtfunctie:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H(s)=\frac{F_{uit}(s)}{F_{in}(s)}=\frac{\frac{1}{R}B(s)}{B(s)(\frac{1}{R}+A\cdot s)}=\frac{1}{A\cdot R\cdot s+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deze overdracht is in zijn algemeenheid te schrijven als een eerste orde
+ overdracht:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H(s)=\frac{K}{τs+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Geef K en τ:
+\end_layout
+
+\begin_layout Standard
+τ: A
+\begin_inset Formula $∙$
+\end_inset
+
+R
+\end_layout
+
+\begin_layout Standard
+K = 1
+\end_layout
+
+\end_body
+\end_document
