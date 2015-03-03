@@ -546,14 +546,17 @@ afleiding
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $y(\infty)=\lim\limits _{τ\rightarrow\infty}$
+\begin_inset Formula $y(\infty)=\lim\limits _{τ\rightarrow\infty}\frac{K}{τs+1}=0$
 \end_inset
 
+ [Previous and need to be deleted]
+\end_layout
 
-\begin_inset Formula $\frac{K}{τs+1}=0$
+\begin_layout Standard
+\begin_inset Formula $y(\infty)=\lim\limits _{s\rightarrow0}\frac{K}{τs+1}=K$
 \end_inset
 
- [NEEDS CORRECTION]
+ [NEEDS CHECKING]
 \end_layout
 
 \begin_layout Standard
@@ -677,7 +680,7 @@ Geef K en τ:
 \end_layout
 
 \begin_layout Standard
-τ: A
+τ = A
 \begin_inset Formula $∙$
 \end_inset
 
