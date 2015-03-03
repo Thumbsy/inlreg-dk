@@ -79,7 +79,7 @@ Klas: EQ2
 \begin_inset Newline newline
 \end_inset
 
-Practicumgroep: a
+Practicumgroep: EQ2.a
 \begin_inset Newline newline
 \end_inset
 
@@ -94,6 +94,10 @@ Beoordeling:
 
 \size footnotesize
 Datum beoordeling:
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -176,7 +180,6 @@ Kies voor τ achtereenvolgens de volgende waarden:
 
 \begin_layout Standard
 Print de twee responsies uit of plak ze hieronder elektronisch in dit rapport.
- <insert image: scrn_opdracht1_a>< insert image: scrn_opdracht1_b> 
 \end_layout
 
 \begin_layout Standard
@@ -546,17 +549,10 @@ afleiding
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $y(\infty)=\lim\limits _{τ\rightarrow\infty}\frac{K}{τs+1}=0$
-\end_inset
-
- [Previous and need to be deleted]
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula $y(\infty)=\lim\limits _{s\rightarrow0}\frac{K}{τs+1}=K$
 \end_inset
 
- [NEEDS CHECKING]
+ 
 \end_layout
 
 \begin_layout Standard
