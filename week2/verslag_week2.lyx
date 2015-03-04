@@ -676,11 +676,11 @@ Geef K en τ:
 \end_layout
 
 \begin_layout Standard
-τ = A
-\begin_inset Formula $∙$
+τ = 
+\begin_inset Formula $A\cdot R$
 \end_inset
 
-R
+
 \end_layout
 
 \begin_layout Standard
