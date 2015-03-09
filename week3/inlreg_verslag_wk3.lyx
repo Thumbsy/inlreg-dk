@@ -1,0 +1,1433 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language dutch
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language polish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+Naam: Daniël Martoredjo & Kevin Oei
+\begin_inset Newline newline
+\end_inset
+
+Klas: EQ2
+\begin_inset Newline newline
+\end_inset
+
+Practicumgroep: EQ2.a
+\begin_inset Newline newline
+\end_inset
+
+Datum van inlevering: 2015.03.11
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Beoordeling:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size footnotesize
+Datum beoordeling:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Paraaf docent:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\size large
+PROEF 2: INVLOED TEGENKOPPELING
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Inhoud:
+\end_layout
+
+\begin_layout Standard
+\noindent
+In deze practicumopdracht wordt er met het watervat uit proef 1 verder gewerkt.
+ Het waterniveau in het vat moet op een bepaalde hoogte kunnen worden geregeld.
+ Daarvoor wordt er een regeling ontworpen.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\noindent
+INLEIDING:
+\end_layout
+
+\begin_layout Standard
+\noindent
+Het watervat uit proef 1 wordt nu teruggekoppeld.
+ De waterhoogte wordt gemeten en vergeleken met de gewenste hoogte.
+ Zie figuur 5.4 in het boek voor het processchema.
+ Aangenomen wordt dat de overdracht van de vlotter lineair is, en dat de
+ versterking in te terugkoppeling gelijk is aan één.
+ Er wordt een lineaire klep gebruikt.
+ De balans van de hefboom kan worden versteld.
+ De overdrachten van regelaar, klep en hefboom kunnen samengenomen worden
+ tot een versterkingsfactor K.
+ Hierbij is K in te stellen door de balans van de hefboom te verstellen
+ of in de regelaar.
+ De overdracht van watertoevoer en werkelijke waterhoogte is in proef 1
+ vastgesteld.
+ Hierdoor ontstaat het volgende model van deze niveauregeling: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Blokschema niveauregeling
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename C:/Users/Daniël/Dropbox/Opleidingen&Cursussen/Elektrotechniek (voltijd)/Jaar 2014-2015/Compleet overzicht/INLREG - Inleiding regeltechniek/inlreg-dk/week3/fig1_blokschema_niveauregeling.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Dit schema kan verder worden vereenvoudigd:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Teruggekoppeld systeem
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename C:/Users/Daniël/Dropbox/Opleidingen&Cursussen/Elektrotechniek (voltijd)/Jaar 2014-2015/Compleet overzicht/INLREG - Inleiding regeltechniek/inlreg-dk/week3/fig2_teruggekoppeld_systeem.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Dit tegengekoppeld systeem is te vereenvoudigen tot een overdracht dat weer
+ een eerste orde systeem blijkt te zijn maar dan natuurlijk met een andere
+ versterking K* en tijdconstante τ*:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Vereenvoudigd systeem
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename fig3_vereenvoudigd_systeem.PNG
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $H(s)=\frac{K^{*}}{\tau^{*}s+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+De tijdconstante τ* en de versterking K* van dit systeem als functie van
+ K zijn:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $\tau^{*}=\frac{\tau}{1+K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $K^{*}=\frac{K}{1+K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\noindent
+MEETOPDRACHTEN:
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+Meetopdracht 1:
+\end_layout
+
+\begin_layout Standard
+\noindent
+Voer het schema van proef 1 in.
+ Neem: τ = 1
+\backslash
+2 sec.
+ en K = 1.
+ Geef de stapresponsie door dit proces te runnen (responsie toevoegen aan
+ het verslag op blz.
+ 2.4).
+ Neem daarbij voor de simulatietijd 2 sec.
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+Meetopdracht 2:
+\end_layout
+
+\begin_layout Standard
+\noindent
+Voeg de tegenkoppeling toe aan het schema zoals aangegeven in figuur 2.
+ Op de ingang wordt weer een stap van één gezet.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Geef de stapresponsie door dit proces te runnen (responsie toevoegen op
+ blz.
+ 2.4).
+ Bepaal uit deze responsie de tijdconstante en de statische versterking:
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
+τ*berekend= 0,25 
+\begin_inset space ~
+\end_inset
+
+τ*gemeten = 0,264
+\end_layout
+
+\begin_layout Standard
+\noindent
+K*berekend= 0,5 
+\begin_inset space ~
+\end_inset
+
+K*gemeten = 0,5
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+Meetopdracht 3:
+\end_layout
+
+\begin_layout Standard
+\noindent
+We gaan de versterking vergroten.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Voor K=2: Geef de stapresponsie door dit proces te runnen (responsie toevoegen
+ op blz.
+ 2.4).
+ Bepaal uit deze responsie de tijdconstante en de statische versterking:
+\end_layout
+
+\begin_layout Standard
+\noindent
+τ*berekend= 0,1667 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+τ*gemeten = 0,1728 
+\end_layout
+
+\begin_layout Standard
+\noindent
+K*berekend= 0,6667 
+\begin_inset space ~
+\end_inset
+
+K*gemeten = 0,6667
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+Meetopdracht 4:
+\end_layout
+
+\begin_layout Standard
+\noindent
+Doe dit ook voor K=5: Geef de stapresponsie door dit proces te runnen (responsie
+ toevoegen op blz.
+ 2.4).
+ Bepaal uit deze responsie de tijdconstante en de statische versterking:
+\end_layout
+
+\begin_layout Standard
+\noindent
+τ*berekend= 0,0833 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+τ*gemeten = 0,0837 
+\end_layout
+
+\begin_layout Standard
+\noindent
+K*berekend= 0,8333 
+\begin_inset space ~
+\end_inset
+
+K*gemeten = 0,8333 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\noindent
+Thuisopgaven:
+\end_layout
+
+\begin_layout Standard
+\noindent
+Bestudeer par.
+ 5.2 voorbeeld 5.2 en par 3.3 t/m voorbeeld 3.3 uit het studieboek.
+ Gevraagd:
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Teken in het onderstaande s-vlak het polen en nulpuntenbeeld van het tegengekopp
+elde systeem voor K=0, 1, 2, 5
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tabel polen en nulpunten
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="7">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K^{*}=\frac{K}{1+K}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau^{*}=\frac{\tau}{1+K}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $H(s)=\frac{K^{*}}{\tau^{*}s+1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Pool\,(\lambda,j\omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Nulpunten$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(-2,0)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{s+4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(-4,0)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{4}{s+6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(-6,0)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{12}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{10}{s+12}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(-12,0)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Polen en nulpuntbeeld van 
+\begin_inset Formula $\mbox{H(s)}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+<insert s-vlak>
+\end_layout
+
+\end_inset
+
+Plak hieronder de responsies van meetopdrachten 1 t/m 4.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie meetopdracht 1
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename p2o1.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie meetopdracht 2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename p2o2.png
+	lyxscale 40
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie meetopdracht 3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename p2o3.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Responsie meetopdracht 4
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename p2o4.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+De waarde van een pool op de reële as van het s-vlak geeft de absolute demping
+ aan.
+ Wat is het verband tussen de absolute demping en de tijdconstante van een
+ systeem:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Hoe groter Kpn, hoe kleiner de tijdsconstante.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+De stapresponsie is:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Y(s)=X(s)\times H(s)=\frac{1}{s}\times\frac{K^{*}}{\tau^{*}s+1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Bereken de stapresponsie y(t).
+ Laat voor het gemak eerst K* en τ* in de afleiding staan en vul op het
+ eind van de afleiding K in bij K* en τ*
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Y(s)=X(s)\times H(s)=\frac{1}{s}\times\frac{K^{*}}{\tau^{*}s+1}=\frac{K^{*}}{s(\tau^{*}s+1)}=\frac{A}{s}+\frac{B}{\tau^{*}s+1}\Leftrightarrow$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K^{*}=A(\tau^{*}s+1)+B\times s$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Stel 
+\begin_inset Formula $s=0$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K^{*}=A(1)+0\Leftrightarrow A=K^{*}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Stel 
+\begin_inset Formula $s=\frac{-1}{\tau^{*}}$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K^{*}=0+B\times\frac{-1}{\tau^{*}}\Leftrightarrow B=-K^{*}\times\tau^{*}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $Y(s)=K^{*}\frac{1}{s}-K^{*}\tau^{*}\frac{1}{\tau^{*}s+1}=K^{*}\frac{1}{s}-K^{*}\tau^{*}\frac{\frac{1}{\tau*}}{s+\frac{1}{\tau*}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Welk deel van de stapresponsie y(t) van vraag 3 is verantwoordelijk voor
+ het dynamisch gedrag? 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Welk deel van de stapresponsie y(t) van vraag 3 is verantwoordelijk voor
+ het statische gedrag?
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Vul de waarde K=0, 1, 2 en 5 en τ=1/2 sec in de berekende responsie van
+ vraag 3 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Beschrijf het verband tussen de poolpositie van figuur 3 en de zonet berekende
+ responsie en de gemeten tijdresponsie.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+Leid de formules (blz.
+ 2.2) van het teruggekoppelde systeem af.
+ Bestudeer eerst par.
+ 2.4.
+ uit het boek 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Geef H(s) van dit tegengekoppelde systeem:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $H(s)=$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Dit tegengekoppeld systeem is weer een eerste orde systeem maar dan natuurlijk
+ met een andere versterking K* en tijdconstante τ*: 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $H(s)=\frac{K^{*}}{\tau^{*}s+1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Schrijf de jou afgeleide overdracht in deze vorm (dus zorg ervoor dat in
+ de noemer een +1 staat ofwel deel het stuk zonder s eruit zodat dit 1 wordt).
+ Vergelijk de afgeleide H(s) met deze standaard eerste orde overdracht en
+ laat zien dat de tijdconstante * en de versterking K* van dit teruggekoppelde
+ systeem een functie van K zijn volgens de volgende formules:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\tau^{*}=\frac{\tau^{*}}{1+K}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $K^{*}=\frac{K}{1+K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
