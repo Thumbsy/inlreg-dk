@@ -497,10 +497,11 @@ Bestudeer par.
 \noindent
 Teken in het onderstaande s-vlak het polen en nulpuntenbeeld van het tegengekopp
 elde systeem voor K=0, 1, 2, 5
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_deeper
+\begin_layout Standard
+\noindent
 \begin_inset Float table
 wide false
 sideways false
@@ -955,27 +956,26 @@ Tabel polen- en nulpunten
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
+\noindent
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename polen_nulpuntenbeeld_teruggekoppeld_systeem.png
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -988,16 +988,16 @@ Polen- en nulpuntbeeld van
 
 \end_inset
 
-<insert s-vlak>
+
 \end_layout
 
 \end_inset
 
 Plak hieronder de responsies van meetopdrachten 1 t/m 4.
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Float figure
 wide false
 sideways false
@@ -1025,10 +1025,10 @@ Responsie meetopdracht 1
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Float figure
 wide false
 sideways false
@@ -1061,10 +1061,10 @@ Responsie meetopdracht 2
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Float figure
 wide false
 sideways false
@@ -1096,10 +1096,10 @@ Responsie meetopdracht 3
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Float figure
 wide false
 sideways false
@@ -1124,45 +1124,42 @@ Responsie meetopdracht 4
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 \noindent
 De waarde van een pool op de reële as van het s-vlak geeft de absolute demping
  aan.
  Wat is het verband tussen de absolute demping en de tijdconstante van een
  systeem:
-\begin_inset Newline newline
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+Hoe groter K
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+pn
+\end_layout
+
 \end_inset
 
+, hoe kleiner de tijdsconstante.
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
+\begin_layout Standard
+\noindent
+De stapresponsie is
+\end_layout
 
-Hoe groter Kpn, hoe kleiner de tijdsconstante.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-De stapresponsie is:
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $Y(s)=X(s)\times H(s)=\frac{1}{s}\times\frac{K^{*}}{\tau^{*}s+1}$
 \end_inset
 
@@ -1173,67 +1170,67 @@ De stapresponsie is:
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 \noindent
 Bereken de stapresponsie y(t).
  Laat voor het gemak eerst K* en τ* in de afleiding staan en vul op het
  eind van de afleiding K in bij K* en τ*
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_deeper
+\begin_layout Standard
+\noindent
 \begin_inset Formula $Y(s)=X(s)\times H(s)=\frac{1}{s}\times\frac{K^{*}}{\tau^{*}s+1}=\frac{K^{*}}{s(\tau^{*}s+1)}=\frac{A}{s}+\frac{B}{\tau^{*}s+1}\Leftrightarrow$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $K^{*}=A(\tau^{*}s+1)+B\times s$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+\noindent
 Stel 
 \begin_inset Formula $s=0$
 \end_inset
 
 :
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $K^{*}=A(1)+0\Leftrightarrow A=K^{*}$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+\noindent
 Stel 
 \begin_inset Formula $s=\frac{-1}{\tau^{*}}$
 \end_inset
 
 :
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $K^{*}=0+B\times\frac{-1}{\tau^{*}}\Leftrightarrow B=-K^{*}\times\tau^{*}$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $Y(s)=K^{*}\frac{1}{s}-K^{*}\tau^{*}\frac{1}{\tau^{*}s+1}=K^{*}\frac{1}{s}-K^{*}\tau^{*}\frac{\frac{1}{\tau*}}{s+\frac{1}{\tau*}}$
 \end_inset
 
@@ -1242,69 +1239,74 @@ Stel
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 \noindent
 Welk deel van de stapresponsie y(t) van vraag 3 is verantwoordelijk voor
  het dynamisch gedrag? 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_deeper
+\begin_layout Standard
+[answer]
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 \noindent
 Welk deel van de stapresponsie y(t) van vraag 3 is verantwoordelijk voor
  het statische gedrag?
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_deeper
+\begin_layout Standard
+[answer]
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 \noindent
 Vul de waarde K=0, 1, 2 en 5 en τ=1/2 sec in de berekende responsie van
- vraag 3 
-\begin_inset Newline newline
-\end_inset
+ vraag 3
+\end_layout
 
-
+\begin_deeper
+\begin_layout Standard
+[answer]
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 \noindent
 Beschrijf het verband tussen de poolpositie van figuur 3 en de zonet berekende
  responsie en de gemeten tijdresponsie.
  
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_deeper
+\begin_layout Standard
+[answer]
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
 \noindent
 Leid de formules (blz.
@@ -1312,81 +1314,62 @@ Leid de formules (blz.
  Bestudeer eerst par.
  2.4.
  uit het boek 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_deeper
+\begin_layout Standard
+\noindent
 Geef H(s) van dit tegengekoppelde systeem:
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $H(s)=$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Standard
+\noindent
 Dit tegengekoppeld systeem is weer een eerste orde systeem maar dan natuurlijk
  met een andere versterking K* en tijdconstante τ*: 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $H(s)=\frac{K^{*}}{\tau^{*}s+1}$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
+\begin_layout Standard
+\noindent
 Schrijf de jou afgeleide overdracht in deze vorm (dus zorg ervoor dat in
  de noemer een +1 staat ofwel deel het stuk zonder s eruit zodat dit 1 wordt).
  Vergelijk de afgeleide H(s) met deze standaard eerste orde overdracht en
  laat zien dat de tijdconstante τ* en de versterking K* van dit teruggekoppelde
  systeem een functie van K zijn volgens de volgende formules:
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $\tau^{*}=\frac{\tau^{*}}{1+K}$
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Standard
+\noindent
 \begin_inset Formula $K^{*}=\frac{K}{1+K}$
 \end_inset
 
 
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 \noindent
 \begin_inset Newpage pagebreak
