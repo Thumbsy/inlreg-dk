@@ -9,7 +9,7 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
+\font_roman lmodern
 \font_sans default
 \font_typewriter default
 \font_math auto
@@ -24,6 +24,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -54,8 +55,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip bigskip
 \quotes_language polish
 \papercolumns 1
 \papersides 1
@@ -129,14 +130,11 @@ height "1pt"
 
 \begin_layout Standard
 \noindent
+\align center
 
 \series bold
 \size large
 PROEF 2: INVLOED TEGENKOPPELING
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -204,22 +202,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename fig1_blokschema_niveauregeling.PNG
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Blokschema niveauregeling
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename C:/Users/Daniël/Dropbox/Opleidingen&Cursussen/Elektrotechniek (voltijd)/Jaar 2014-2015/Compleet overzicht/INLREG - Inleiding regeltechniek/inlreg-dk/week3/fig1_blokschema_niveauregeling.PNG
-	width 100text%
 
 \end_inset
 
@@ -244,10 +238,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename fig2_teruggekoppeld_systeem.PNG
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -256,17 +253,6 @@ Teruggekoppeld systeem
 
 \end_inset
 
-
-\begin_inset Graphics
-	filename C:/Users/Daniël/Dropbox/Opleidingen&Cursussen/Elektrotechniek (voltijd)/Jaar 2014-2015/Compleet overzicht/INLREG - Inleiding regeltechniek/inlreg-dk/week3/fig2_teruggekoppeld_systeem.PNG
-	width 100text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -290,22 +276,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename fig3_vereenvoudigd_systeem.PNG
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Vereenvoudigd systeem
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename fig3_vereenvoudigd_systeem.PNG
-	width 100text%
 
 \end_inset
 
@@ -532,7 +514,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Tabel polen en nulpunten
+Tabel polen- en nulpunten
 \end_layout
 
 \end_inset
@@ -997,7 +979,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Polen en nulpuntbeeld van 
+Polen- en nulpuntbeeld van 
 \begin_inset Formula $\mbox{H(s)}$
 \end_inset
 
@@ -1022,10 +1004,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename p2o1.png
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1035,13 +1020,6 @@ Responsie meetopdracht 1
 \end_inset
 
 
-\begin_inset Graphics
-	filename p2o1.png
-	width 100text%
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -1057,10 +1035,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename p2o2.png
+	lyxscale 40
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1070,14 +1052,6 @@ Responsie meetopdracht 2
 \end_inset
 
 
-\begin_inset Graphics
-	filename p2o2.png
-	lyxscale 40
-	width 100text%
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -1097,10 +1071,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename p2o3.png
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1110,13 +1087,6 @@ Responsie meetopdracht 3
 \end_inset
 
 
-\begin_inset Graphics
-	filename p2o3.png
-	width 100text%
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -1136,22 +1106,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename p2o4.png
+	width 100text%
 
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Responsie meetopdracht 4
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename p2o4.png
-	width 100text%
 
 \end_inset
 
@@ -1397,7 +1363,7 @@ Dit tegengekoppeld systeem is weer een eerste orde systeem maar dan natuurlijk
 Schrijf de jou afgeleide overdracht in deze vorm (dus zorg ervoor dat in
  de noemer een +1 staat ofwel deel het stuk zonder s eruit zodat dit 1 wordt).
  Vergelijk de afgeleide H(s) met deze standaard eerste orde overdracht en
- laat zien dat de tijdconstante * en de versterking K* van dit teruggekoppelde
+ laat zien dat de tijdconstante τ* en de versterking K* van dit teruggekoppelde
  systeem een functie van K zijn volgens de volgende formules:
 \begin_inset Newline newline
 \end_inset
