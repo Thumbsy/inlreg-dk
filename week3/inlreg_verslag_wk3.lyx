@@ -1239,6 +1239,14 @@ Stel
 \end_inset
 
 
+\begin_inset Formula $y(t)=K^{*}-K^{*}\tau^{*}\frac{1}{\tau^{*}}e^{-\frac{1}{\tau^{*}}t}=K^{*}(1-e^{-\frac{1}{\tau^{*}}t})=\frac{K}{1+K}(1-e^{-\frac{1}{\frac{\tau}{1+K}}t})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1250,7 +1258,10 @@ Welk deel van de stapresponsie y(t) van vraag 3 is verantwoordelijk voor
 
 \begin_deeper
 \begin_layout Standard
-[answer]
+\begin_inset Formula $-e^{-\frac{1}{\frac{\tau}{1+K}}t}$
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1266,7 +1277,10 @@ Welk deel van de stapresponsie y(t) van vraag 3 is verantwoordelijk voor
 
 \begin_deeper
 \begin_layout Standard
-[answer]
+\begin_inset Formula $\frac{K}{1+K}$
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1282,8 +1296,163 @@ Vul de waarde K=0, 1, 2 en 5 en τ=1/2 sec in de berekende responsie van
 
 \begin_deeper
 \begin_layout Standard
-[answer]
-\begin_inset Newline newline
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y(t)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}(1-e^{-4t})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{3}(1-e^{-6t})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{6}(1-e^{-12t})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1292,25 +1461,23 @@ Vul de waarde K=0, 1, 2 en 5 en τ=1/2 sec in de berekende responsie van
 \end_deeper
 \begin_layout Enumerate
 \noindent
-Beschrijf het verband tussen de poolpositie van figuur 3 en de zonet berekende
+Beschrijf het verband tussen de poolpositie van figuur 4 en de zonet berekende
  responsie en de gemeten tijdresponsie.
  
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_deeper
-\begin_layout Standard
-[answer]
+De exponenten van de e-machten zijn de polen in figuur 4
 \begin_inset Newline newline
 \end_inset
 
 
 \end_layout
 
-\end_deeper
 \begin_layout Enumerate
 \noindent
 Leid de formules (blz.
- 2.2) van het teruggekoppelde systeem af.
+ 3) van het teruggekoppelde systeem af.
  Bestudeer eerst par.
  2.4.
  uit het boek 
@@ -1324,10 +1491,30 @@ Geef H(s) van dit tegengekoppelde systeem:
 
 \begin_layout Standard
 \noindent
-\begin_inset Formula $H(s)=$
+\begin_inset Formula $Y(s)=H_{1}(s)(X(s)-Y(s)\Leftrightarrow Y(s)(1+H_{1}(s))=X(s)(H(s)\Leftrightarrow$
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $H(s)=\frac{Y(s)}{X(s)}=\frac{H_{1}(s)}{1+H_{1}(s)}=\frac{1}{\frac{1}{H_{1}(s)}+1}=\frac{1}{\frac{\tau s+1}{K}+1}=\frac{K}{\tau s+1+K}=\frac{\frac{K}{1+K}}{\frac{\tau}{1+K}s+1}=\frac{K^{*}}{\tau^{*}s+1}$
+\end_inset
+
+, met 
+\begin_inset Formula $K*$
+\end_inset
+
+=
+\begin_inset Formula $\frac{K}{1+K}$
+\end_inset
+
+ en 
+\begin_inset Formula $\tau^{*}=\frac{\tau}{1+K}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
