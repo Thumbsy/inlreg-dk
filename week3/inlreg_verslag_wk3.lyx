@@ -1296,21 +1296,6 @@ Vul de waarde K=0, 1, 2 en 5 en τ=1/2 sec in de berekende responsie van
 
 \begin_deeper
 \begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="2">
 <features rotate="0" tabularvalignment="middle">
@@ -1453,17 +1438,15 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Enumerate
 \noindent
 Beschrijf het verband tussen de poolpositie van figuur 4 en de zonet berekende
  responsie en de gemeten tijdresponsie.
- 
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -1491,7 +1474,7 @@ Geef H(s) van dit tegengekoppelde systeem:
 
 \begin_layout Standard
 \noindent
-\begin_inset Formula $Y(s)=H_{1}(s)(X(s)-Y(s)\Leftrightarrow Y(s)(1+H_{1}(s))=X(s)(H(s)\Leftrightarrow$
+\begin_inset Formula $Y(s)=H_{1}(s)(X(s)-Y(s))\Leftrightarrow Y(s)(1+H_{1}(s))=X(s)H(s)\Leftrightarrow$
 \end_inset
 
 
