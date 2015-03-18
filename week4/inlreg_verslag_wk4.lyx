@@ -215,7 +215,7 @@ De versterking A in deze overdracht is groot ten opzichten van G
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $K_{1}=\lim\limits _{A\rightarrow\infty}\frac{G_{1}A}{1+G_{1}G_{2}A}=$
+\begin_inset Formula $K_{1}=\lim\limits _{A\rightarrow\infty}\frac{G_{1}A}{1+G_{1}G_{2}A}=\lim\limits _{A\rightarrow\infty}\frac{G_{1}}{\frac{1}{A}+G_{1}G_{2}}=\frac{G_{1}}{G_{1}G_{2}}$
 \end_inset
 
 
