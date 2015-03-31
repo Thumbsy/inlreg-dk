@@ -165,11 +165,234 @@ height "1pt"
 
 \end_layout
 
-\begin_layout Section*
-Opdracht 1
+\begin_layout Standard
+Tweede orde systeem: De overdracht H(s) van een tweede orde systeem is:
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $H(s)=\frac{K\omega_{0}^{2}}{s^{2}+2\beta\omega_{0}s+\omega_{0}^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deze overdracht H(s) kan worden herschreven naar opamp’s, weerstanden en
+ condensatoren, zoals te zien is in Figuur 1.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+is de eigenfrequentie.
+ Deze wordt ingesteld met 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\beta$
+\end_inset
+
+ is de relatieve dempingsfactor.
+ Hij wordt ingesteld met 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+.
+ In de proef laten we de eigenfrequentie constant (
+\begin_inset Formula $\alpha_{1}=0,576$
+\end_inset
+
+) en bekijken we de respontie 
+\begin_inset Formula $y(t)$
+\end_inset
+
+ voor meerdere waarden van de dempingsfactor.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Elektronische equivalentieschakeling
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename Figuur 1.JPG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Van dit systeem zullen we een aantal eigenschappen meten: de doorschot,
+ settling-time en opslingering tengevolgen van resonantie.
+ 
+\end_layout
+
+\begin_layout Section*
+Opdracht 1:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Doorschot:
+\end_layout
+
+\begin_layout Standard
+Een tweede orde systeem kan uitslingeren voordat het uiteindelijk op zijn
+ eindwaarde tot rust komt.
+ Dit wordt doorschot genoemd.
+ De doorschot van een systeem is de maximale waarde van die uitslingering
+ 
+\begin_inset Formula $y(t_{p})$
+\end_inset
+
+, waarde van de uitgang op de piektijd 
+\begin_inset Formula $t_{p}$
+\end_inset
+
+ t.o.v.
+ de Steady State van het uitgangssignaal 
+\begin_inset Formula $y(\infty)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename opdracht1_graph.JPG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deze doorschot van een tweede orde systeem is alleen afhankelijk van de
+ dempingfactor 
+\begin_inset Formula $β$
+\end_inset
+
+ en kan worden berekend met de formule:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $D=\frac{y(t_{p})-y(\infty)}{y(\infty)}=e^{-\frac{\beta}{\sqrt{1-\beta^{2}}}\pi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De schakeling is al opgebouwd met op-amp’s op het paneel volgens het schema
+ in Figuur 1.
+ Zet op de ingang een stap (blok met een voldoende lange periode).
+\end_layout
+
+\begin_layout Standard
+Meet de doorschot met behulp van de cursor op de scoop voor ß is 
+\begin_inset Formula $0,1;\,0,2;\,0,4\,;1/2\sqrt{2};\,1,0$
+\end_inset
+
+ en 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\beta$
+\end_inset
+
+ kan worden ingesteld met potmeter 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+ (zie Figuur 1 en tabel 1).
+ Vul tabel 1 in met je metingen en de theoretische waarden van 
+\begin_inset Formula $D=f(\beta)$
+\end_inset
+
+ en vergelijk deze met elkaar en geef een conclusie.
+ Meet voor elke responsie ook de settling time.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Settling time 
+\begin_inset Formula $t_{s}(5%\%)
+$
+\end_inset
+
+:
+\series default
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+Bepaal de tijd waarop de responsie (definitief) binnen een bandje van 5%
+ van de eindwaarde komt.
+ Dit is de settlingtime 
+\begin_inset Formula $t_{s,5\%}$
+\end_inset
+
+.
+ De settling time is een maat voor de snelheid van een systeem.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Meet de settling-time en zet je metingen in tabel 1.
+ Zet daarvoor de cursor op 
+\begin_inset Formula $1,05y(\infty)$
+\end_inset
+
+ en op 
+\begin_inset Formula $0,95y(\infty)$
+\end_inset
+
+ en meet de tijd waarop de responsie voor het laatst binnen die band van
+ 5% blijft.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="8" columns="5">
 <features rotate="0" tabularvalignment="middle">
@@ -574,6 +797,379 @@ berekend
 </row>
 </lyxtabular>
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(x = 4V 0.3Hz blokgolf, amplitude is 2Vpp, 50% offset):
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conclusie over de doorschot:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wat valt je op wat betreft de settling-time:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Opdracht 2:
+\end_layout
+
+\begin_layout Standard
+Als op de ingang van een systeem een sinus wordt aangesloten zal deze sinus
+ worden versterkt en in fase worden verschoven.
+ Als de demping gering is (
+\begin_inset Formula $\beta<½\sqrt{2}$
+\end_inset
+
+) dan wordt de amplitude van het uitgangssignaal groter dan het ingangssignaal.
+ Men spreekt dan van opslin¬gering, dit is een resonantieverschijnsel.
+ Denk daarbij aan een LC-kring.
+\end_layout
+
+\begin_layout Standard
+Stel 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+ in op een waarde waarbij 
+\begin_inset Formula $\beta=0,2$
+\end_inset
+
+.
+ Zet op de ingang een sinus met een hoekfrequentie van 23 rad/sec (in te
+ stellen op de generator in Hz., dus eerst omrekenen).
+ Meet de amplitude en de faseverschuiving van het uitgangssignaal en bereken
+ daaruit de versterking:
+\end_layout
+
+\begin_layout Standard
+(Frequentie van 12,66 Hz gebruikt)
+\begin_inset Newline newline
+\end_inset
+
+Amplitude uitgangssignaal = 4,4 V 
+\begin_inset Newline newline
+\end_inset
+
+Amplitude ingangssignaal = 2,08 V 
+\begin_inset Newline newline
+\end_inset
+
+Versterking = 2,12
+\end_layout
+
+\begin_layout Standard
+Faseverschuiving = 90 graden 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Thuisopgaven
+\end_layout
+
+\begin_layout Subsection*
+Tweede orde systeem opgebouwd met op-amp’s
+\end_layout
+
+\begin_layout Standard
+Er wordt alleen gebruik gemaakt van (ideaal veronderstelde) op-amp’s, weerstande
+n en condensatoren.
+ In Figuur 2 is een algemene opamp-schakeling gegeven.
+ De uitgang voldoet aan de volgende vergelijking (ga dit zelf na):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U_{3}=-\frac{Z_{3}}{Z_{1}}\cdot U_{1}-\frac{Z_{3}}{Z_{2}}\cdot U_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deze schakeling geeft het daarnaast getekende blokschema.
+ 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+overdracht op-amp
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figuur 2.JPG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In het geval dat 
+\begin_inset Formula $Z_{3}$
+\end_inset
+
+ een condensator is, kan een zuivere integrator worden verkregen, zie Figuur
+ 3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+zuivere integrator
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figuur 3.JPG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uit het blokschema volgt voor het uitgangssignaal van de integrator:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U_{3}(s)=(\frac{1}{R_{1}}U_{1}+\frac{1}{R_{2}}U_{2})\cdot\frac{-1}{sC}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Een zuivere integrator welke wordt tegengekoppeld geeft een eerste orde
+ overdracht (Figuur 4).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+eerste orde overdracht
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figuur 4.JPG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De overdracht van het eerste orde systeem wordt dan:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H(s)=\frac{\frac{1}{R_{1}}\cdot\frac{-1}{sC}}{1\cdot\frac{-1}{sC}\centerdot\frac{1}{R_{2}}}=-\frac{R_{2}}{R_{1}}\centerdot\frac{1}{R_{2}Cs+1}=\frac{-1}{R_{1}C}\cdot\frac{1}{s+\frac{1}{R_{2}C}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hiermee is aangegeven dat het mogelijk is om optelpunten, inverterende versterke
+rs, zuivere integrators en eerste orde systemen te realiseren m.b.v.
+ de opamp's.
+\end_layout
+
+\begin_layout Standard
+Met deze overdrachten is een tweede orde systeem te realiseren.
+ 
+\end_layout
+
+\begin_layout Standard
+De overdracht H(s) van een tweede orde overdracht is gegeven in Figuur 5:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+tweede orde systeem
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figuur 5.JPG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Deze overdracht H(s) kan worden herschreven naar opamp’s, weerstanden en
+ condensatoren, zoals in Figuur 6 stapsgewijs wordt uitgevoerd.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+elektronische equivalentieschakeling
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figuur 6.JPG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Opgave:
+\end_layout
+
+\begin_layout Standard
+Bestudeer uit het studieboek par.2.4 t/m blz.
+ 32.
+\end_layout
+
+\begin_layout Standard
+Geef de overdracht van de bovenstaande schakeling (geef de afleiding hieronder,
+ waarbij je de overdracht in een teller en een noemer polynoom schrijft):
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H(s)=$
 \end_inset
 
 
