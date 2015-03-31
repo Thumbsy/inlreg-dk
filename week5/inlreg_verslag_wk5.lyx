@@ -1169,7 +1169,7 @@ Geef de overdracht van de bovenstaande schakeling (geef de afleiding hieronder,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $H(s)=$
+\begin_inset Formula $H(s)=\frac{\frac{1}{R_{1}}}{}$
 \end_inset
 
 
