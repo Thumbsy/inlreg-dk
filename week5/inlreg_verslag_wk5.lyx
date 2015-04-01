@@ -536,7 +536,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-3,72
+
 \end_layout
 
 \end_inset
@@ -554,7 +554,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-1110
+
 \end_layout
 
 \end_inset
@@ -583,7 +583,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-3,26
+
 \end_layout
 
 \end_inset
@@ -601,7 +601,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-640
+
 \end_layout
 
 \end_inset
@@ -630,7 +630,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-2,60
+
 \end_layout
 
 \end_inset
@@ -648,7 +648,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-310
+
 \end_layout
 
 \end_inset
@@ -677,7 +677,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-1,86
+
 \end_layout
 
 \end_inset
@@ -695,7 +695,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-170
+
 \end_layout
 
 \end_inset
@@ -724,7 +724,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-1,34
+
 \end_layout
 
 \end_inset
@@ -742,7 +742,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-130
+
 \end_layout
 
 \end_inset
@@ -771,7 +771,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-0,26
+
 \end_layout
 
 \end_inset
@@ -789,7 +789,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
-70
+
 \end_layout
 
 \end_inset
@@ -806,7 +806,16 @@ berekend
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-(x = 4V 0.3Hz blokgolf, amplitude is 2Vpp, 50% offset):
+(x = 4V 0.3Hz blokgolf, amplitude is 2V
+\begin_inset script subscript
+
+\begin_layout Plain Layout
+pp
+\end_layout
+
+\end_inset
+
+, 50% offset):
 \end_layout
 
 \end_inset
@@ -847,7 +856,7 @@ Als op de ingang van een systeem een sinus wordt aangesloten zal deze sinus
 \end_inset
 
 ) dan wordt de amplitude van het uitgangssignaal groter dan het ingangssignaal.
- Men spreekt dan van opslin¬gering, dit is een resonantieverschijnsel.
+ Men spreekt dan van opslingering, dit is een resonantieverschijnsel.
  Denk daarbij aan een LC-kring.
 \end_layout
 
