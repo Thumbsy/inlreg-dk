@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language dutch
+\language english
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -57,7 +57,7 @@
 \tocdepth 3
 \paragraph_separation skip
 \defskip bigskip
-\quotes_language polish
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -84,7 +84,7 @@ Practicumgroep: EQ2.a
 \begin_inset Newline newline
 \end_inset
 
-Datum van inlevering: 2015.04.xx
+Datum van inlevering: 2015.04.03
 \begin_inset Newline newline
 \end_inset
 
@@ -159,14 +159,22 @@ height "1pt"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\noindent
 \begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
+\begin_layout Section*
+Tweede orde systeem: 
+\end_layout
+
 \begin_layout Standard
-Tweede orde systeem: De overdracht H(s) van een tweede orde systeem is:
+De overdracht H(s) van een tweede orde systeem is:
 \end_layout
 
 \begin_layout Standard
@@ -252,6 +260,13 @@ Elektronische equivalentieschakeling
 Van dit systeem zullen we een aantal eigenschappen meten: de doorschot,
  settling-time en opslingering tengevolgen van resonantie.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -798,7 +813,7 @@ berekend
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.884 – 0.467j = 1
+N.G.
 \end_layout
 
 \end_inset
@@ -848,15 +863,36 @@ pp
 
 \begin_layout Standard
 Conclusie over de doorschot:
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Standard
+De doorshot (D) wordt kleiner naarmate de dempingsfactor (
+\begin_inset Formula $\beta$
 \end_inset
 
-
+) toeneemt.
 \end_layout
 
 \begin_layout Standard
 Wat valt je op wat betreft de settling-time:
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Standard
+De settling-time wordt kleiner naarmate de doorschot afneemt tot ongeveer
+ D = 1,05 * y(
+\begin_inset Formula $\infty$
+\end_inset
+
+).
+ Als de doorschot lager wordt dan 1,05 * y(
+\begin_inset Formula $\infty$
+\end_inset
+
+), neemt de settling time weer toe.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -912,7 +948,10 @@ Versterking = 2,12
 
 \begin_layout Standard
 Faseverschuiving = 90 graden 
-\begin_inset Newline newline
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1196,7 +1235,400 @@ Geef de overdracht van de bovenstaande schakeling (geef de afleiding hieronder,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $H(s)=\frac{\frac{1}{R_{1}}}{}$
+\begin_inset Formula $H(s)=\frac{\frac{R_{4}C_{2}\alpha_{1}}{R_{1}C_{1}R_{3}C_{2}R_{4}C_{2}s^{2}+R_{1}C_{1}R_{3}C_{2}\alpha_{2}s}}{1+\frac{R_{4}C_{2}\alpha_{1}}{R_{1}C_{1}R_{3}C_{2}R_{4}C_{2}s^{2}+R_{2}C_{1}R_{3}C_{2}\alpha_{2}s}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Voor de RC-waarden worden gekozen: R1*C1 = R2*C1 = 0,1 en R3*C2 = R4*C2
+ = 0,01, dus R1= R2 en R3= R4.
+\end_layout
+
+\begin_layout Standard
+Vul dit nu in en normeer de coëfficiënt voor s2 op 1 (deel de coefficient
+ voor s2 eruit zodat deze 1 wordt) zodat hij gelijk is aan de coëfficiënt
+ van het standaard tweede orde systeem:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $H(s)=\frac{k\omega_{0}^{2}}{s^{2}+2\beta\omega_{0}s+\omega_{0}^{2}}=\frac{1000\alpha_{1}}{s^{2}+100\alpha_{2}s+1000\alpha_{1}}$
+\end_inset
+
+ (Zie bijlage A voor uitwerking)
+\end_layout
+
+\begin_layout Standard
+De overdrachten van afbeelding 4 en 5 zijn gelijk.
+ Stel de coëfficiënten van de standaard tweede orde overdracht en de door
+ jouw afgeleide overdracht aan elkaar gelijk en leidt daaruit een uitdrukking
+ af voor 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+ en 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2\beta\omega_{0}=100\alpha_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega_{0}^{2}=1000\alpha_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha_{1}=\frac{\omega_{0}^{2}}{1000}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha_{2}=\frac{\beta\omega_{0}}{50}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bereken 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+ en 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+ voor een dempingfactor van 
+\begin_inset Formula $ß=0,1;\,0,2;\,0,4;\,\frac{1}{2}\sqrt{2};\,1,0$
+\end_inset
+
+ en 
+\begin_inset Formula $2$
+\end_inset
+
+, waarbij de eigenfrequentie 
+\begin_inset Formula $\omega_{0}=24\, rad/s$
+\end_inset
+
+ is: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Berekenen van 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+en 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,576
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,048
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,576
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,096
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,576
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,192
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,707
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,576
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,339
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,576
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,576
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,96
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Bijlage A: Uitwerking Overdracht functie H(s)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Uitwerking H(s)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename uitw_overdracht.jpg
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
