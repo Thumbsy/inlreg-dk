@@ -178,7 +178,11 @@ De overdracht H(s) van een tweede orde systeem is:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $H(s)=\frac{K\omega_{0}^{2}}{s^{2}+2\beta\omega_{0}s+\omega_{0}^{2}}$
+\begin_inset Formula 
+\[
+H(s)=\frac{K\omega_{0}^{2}}{s^{2}+2\beta\omega_{0}s+\omega_{0}^{2}}
+\]
+
 \end_inset
 
 
@@ -335,7 +339,11 @@ Deze doorschot van een tweede orde systeem is alleen afhankelijk van de
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $D=\frac{y(t_{p})-y(\infty)}{y(\infty)}=e^{-\frac{\beta}{\sqrt{1-\beta^{2}}}\pi}$
+\begin_inset Formula 
+\[
+D=\frac{y(t_{p})-y(\infty)}{y(\infty)}=e^{-\frac{\beta}{\sqrt{1-\beta^{2}}}\pi}
+\]
+
 \end_inset
 
 
@@ -980,7 +988,11 @@ n en condensatoren.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $U_{3}=-\frac{Z_{3}}{Z_{1}}\cdot U_{1}-\frac{Z_{3}}{Z_{2}}\cdot U_{2}$
+\begin_inset Formula 
+\[
+U_{3}=-\frac{Z_{3}}{Z_{1}}\cdot U_{1}-\frac{Z_{3}}{Z_{2}}\cdot U_{2}
+\]
+
 \end_inset
 
 
@@ -1078,7 +1090,11 @@ Uit het blokschema volgt voor het uitgangssignaal van de integrator:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $U_{3}(s)=(\frac{1}{R_{1}}U_{1}+\frac{1}{R_{2}}U_{2})\cdot\frac{-1}{sC}$
+\begin_inset Formula 
+\[
+U_{3}(s)=(\frac{1}{R_{1}}U_{1}+\frac{1}{R_{2}}U_{2})\cdot\frac{-1}{sC}
+\]
+
 \end_inset
 
 
@@ -1133,7 +1149,11 @@ De overdracht van het eerste orde systeem wordt dan:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $H(s)=\frac{\frac{1}{R_{1}}\cdot\frac{-1}{sC}}{1\cdot\frac{-1}{sC}\centerdot\frac{1}{R_{2}}}=-\frac{R_{2}}{R_{1}}\centerdot\frac{1}{R_{2}Cs+1}=\frac{-1}{R_{1}C}\cdot\frac{1}{s+\frac{1}{R_{2}C}}$
+\begin_inset Formula 
+\[
+H(s)=\frac{\frac{1}{R_{1}}\cdot\frac{-1}{sC}}{1\cdot\frac{-1}{sC}\centerdot\frac{1}{R_{2}}}=-\frac{R_{2}}{R_{1}}\centerdot\frac{1}{R_{2}Cs+1}=\frac{-1}{R_{1}C}\cdot\frac{1}{s+\frac{1}{R_{2}C}}
+\]
+
 \end_inset
 
 
@@ -1247,7 +1267,11 @@ Geef de overdracht van de bovenstaande schakeling (geef de afleiding hieronder,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $H(s)=\frac{\frac{R_{4}C_{2}\alpha_{1}}{R_{1}C_{1}R_{3}C_{2}R_{4}C_{2}s^{2}+R_{1}C_{1}R_{3}C_{2}\alpha_{2}s}}{1+\frac{R_{4}C_{2}\alpha_{1}}{R_{1}C_{1}R_{3}C_{2}R_{4}C_{2}s^{2}+R_{2}C_{1}R_{3}C_{2}\alpha_{2}s}}$
+\begin_inset Formula 
+\[
+H(s)=\frac{\frac{R_{4}C_{2}\alpha_{1}}{R_{1}C_{1}R_{3}C_{2}R_{4}C_{2}s^{2}+R_{1}C_{1}R_{3}C_{2}\alpha_{2}s}}{1+\frac{R_{4}C_{2}\alpha_{1}}{R_{1}C_{1}R_{3}C_{2}R_{4}C_{2}s^{2}+R_{2}C_{1}R_{3}C_{2}\alpha_{2}s}}
+\]
+
 \end_inset
 
 
@@ -1265,7 +1289,11 @@ Vul dit nu in en normeer de coëfficiënt voor s2 op 1 (deel de coefficient
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $H(s)=\frac{k\omega_{0}^{2}}{s^{2}+2\beta\omega_{0}s+\omega_{0}^{2}}=\frac{1000\alpha_{1}}{s^{2}+100\alpha_{2}s+1000\alpha_{1}}$
+\begin_inset Formula 
+\[
+H(s)=\frac{k\omega_{0}^{2}}{s^{2}+2\beta\omega_{0}s+\omega_{0}^{2}}=\frac{1000\alpha_{1}}{s^{2}+100\alpha_{2}s+1000\alpha_{1}}
+\]
+
 \end_inset
 
  (Zie bijlage A voor uitwerking)
@@ -1297,28 +1325,44 @@ De overdrachten van afbeelding 4 en 5 zijn gelijk.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $2\beta\omega_{0}=100\alpha_{2}$
+\begin_inset Formula 
+\[
+2\beta\omega_{0}=100\alpha_{2}
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\omega_{0}^{2}=1000\alpha_{1}$
+\begin_inset Formula 
+\[
+\omega_{0}^{2}=1000\alpha_{1}
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\alpha_{1}=\frac{\omega_{0}^{2}}{1000}$
+\begin_inset Formula 
+\[
+\alpha_{1}=\frac{\omega_{0}^{2}}{1000}
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\alpha_{2}=\frac{\beta\omega_{0}}{50}$
+\begin_inset Formula 
+\[
+\alpha_{2}=\frac{\beta\omega_{0}}{50}
+\]
+
 \end_inset
 
 
